@@ -1,0 +1,18 @@
+channels:
+  - nvidia
+  - pytorch
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - pip
+  - python
+  - pytorch
+  - pytorch-cuda
+  - scikit-learn
+  - scipy
+  - pip:
+      - accelerate
+      - datasets
+      - seqeval
+      - transformers
